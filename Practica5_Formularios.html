@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica5_Formularios</title>
+</head>
+<body>
+    <h1>Formularios HTML</h1><hr>
+    <label for="nombre">Nombre</label>
+    <input type="text" placeholder="Teclea el nombre del alumno" required><br>
+
+    <label for="edad">Edad</label>
+    <input type="number" placeholder="Teclea la edad" required><br>
+
+    <label for="fecha_de_nacimiento">fecha de nacimiento</label>
+    <input type="date" required><br>
+
+    <input type="radio" name="sexo" required>Femenino
+    <input type="radio" name="sexo" required>Masculino
+
+    <label for="direccion">Direccion:</label><br>
+    <textarea name="direccion" id="" cols="30" rows="10" placeholder="Teclea direccion"></textarea>
+    <br><br>
+
+    <label for="escuela">Escuela</label>
+    <select name="escuela" id="">
+        <option value="">Selecciona una escuela</option>
+        <option value="cetis">CETis 107</option>
+        <option value="cbtis">CBTis 224</option>
+        <option value="otra">Otra</option>
+    </select><br><br>
+
+    <label for="materias"><b>Materias cursadas</b></label><br>
+    <input type="checkbox" name="materias[]"> Fisica <br>
+    <input type="checkbox" name="materias[]"> Calculo diferencial <br>
+    <input type="checkbox" name="materias[]"> Ingles <br>
+    <input type="checkbox" name="materias[]"> Programacion Web <br><br>
+
+    <label for="color">Color preferido:</label>
+    <input type="color" required><br><br>
+
+    <label for="imagen_perfil"><b>Imagen de perfil</b></label><br>
+    <input type="file" accept="png/jpg"><br><br>
+
+    <input type="submit" value="Guardar alumno"><br><br>
+    <footer style="text-align: end;">
+        <b>Tienda en linea &copy; 2023</b>
+        <br>
+        <b>Practica 5- Villalva Felix Jose Esteban 13/02/2023</b>
+    </footer>
+</body>
+</html>
