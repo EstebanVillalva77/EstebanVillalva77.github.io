@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Formulario</title>
+    <style>
+        .div2{
+            background-color: white;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: orange;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Formularios Becas Benito Juarez</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Menu Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="becasbenito.htm" target="_blank" >Pagina Oficial</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="div2">
+            <h2>Responde el formulario siguiente para registrar sus datos</h2>
+            <h1>Formulario Becas</h1><hr>
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Teclea el nombre del alumno" required><br><br>
+
+            <label for="edad">Edad</label>
+            <input type="number" placeholder="Teclea la edad" required><br><br>
+
+            <label for="fecha_de_nacimiento">Fecha de Nacimiento</label>
+            <input type="date" required><br><br>
+
+            <input type="radio" name="sexo" required>Femenino
+            <input type="radio" name="sexo" required>Masculino
+            <br><br>
+            <label for="direccion">Direccion:</label><br>
+            <textarea name="direccion" id="" cols="30" rows="10" placeholder="Teclea direccion"></textarea>
+            <br><br>
+
+            <label for="imagen_perfil"><b>Foto del alumno</b></label><br>
+            <input type="file" accept="png/jpg"><br><br>
+
+            <label for="curp">CURP</label><br><br>
+            <input type="text" placeholder="Teclea el CURP del alumno" required><br><br>
+
+            <label for="imagen_ine"><b>A continuacion sube en digital una foto de la credencial de elector de padre madre o tutor:</b></label><br><br>
+            <input type="file" accept="png/jpg"><br><br>
+            <h3>A continuacion suba los demas documentos del alumno para completar el registro:</h3><br><br>
+
+            <label for="imagen_ine"><b></b></label><br>
+            <input type="file" accept="png/jpg"><br><br>
+
+            <label for="imagen_ine"><b></b></label><br>
+            <input type="file" accept="png/jpg"><br><br>
+
+            <label for="imagen_ine"><b></b></label><br>
+            <input type="file" accept="png/jpg"><br><br>
+
+            <label for="imagen_ine"><b></b></label><br>
+            <input type="file" accept="png/jpg"><br><br><br><br>
+
+            <input style="border: 2px solid black; background-color: rgb(187, 187, 187);" type="submit" value="Guardar alumno"><br><br>
+       </div>
+
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
